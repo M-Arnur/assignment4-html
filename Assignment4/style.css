@@ -1,0 +1,121 @@
+body {
+  background-color: #eef3f9;
+  color: #26364a;
+}
+
+main {
+  max-width: 800px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  color: #285ea8;
+}
+
+h2 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #285ea8;
+}
+
+section {
+  background: white;
+  padding: 25px;
+  margin: 25px 0;
+  border: 1px solid #d7e1ee;
+  border-left: 5px solid #5285c6;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(38, 54, 74, 0.06);
+}
+
+.basic-field {
+  margin-bottom: 15px;
+}
+
+.basic-field label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.basic-field input, .basic-field textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #aebed2;
+  border-radius: 6px;
+}
+
+.form-control, .form-select {
+  border-radius: 6px;
+}
+
+.basic-field input:focus, .basic-field textarea:focus {
+  outline: 2px solid #85b3ec;
+  outline-offset: 1px;
+}
+
+button {
+  border-radius: 7px;
+}
+
+form > button:not(.btn) {
+  background: #285ea8;
+  color: white;
+  border: none;
+  padding: 9px 20px;
+}
+
+form > button:not(.btn):hover {
+  background: #1e4b88;
+}
+
+.css-validation .form-control:user-invalid,
+
+.css-validation .form-select:user-invalid,
+
+.css-validation .form-check-input:user-invalid {
+  border-color: #dc3545;
+}
+
+.css-validation .form-control:user-valid,
+
+.css-validation .form-select:user-valid {
+  border-color: #198754;
+}
+
+.css-validation :user-invalid ~ .invalid-feedback {
+  display: block;
+}
+
+.css-validation :user-valid ~ .valid-feedback {
+  display: block;
+}
+
+
+.btn-primary {
+  background-color: #285ea8;
+  border-color: #285ea8;
+}
+
+.btn-primary:hover {
+  background-color: #1e4b88;
+  border-color: #1e4b88;
+}
+
+legend {
+  font-size: 16px;
+}
+
+.result {
+  color: #237443;
+  margin-top: 15px;
+}
+
+@media (max-width: 576px) {
+  section { padding: 15px; }
+  h1 { font-size: 24px; }
+}
+
