@@ -72,29 +72,6 @@ form > button:not(.btn):hover {
   background: #1e4b88;
 }
 
-.css-validation .form-control:user-invalid,
-
-.css-validation .form-select:user-invalid,
-
-.css-validation .form-check-input:user-invalid {
-  border-color: #dc3545;
-}
-
-.css-validation .form-control:user-valid,
-
-.css-validation .form-select:user-valid {
-  border-color: #198754;
-}
-
-.css-validation :user-invalid ~ .invalid-feedback {
-  display: block;
-}
-
-.css-validation :user-valid ~ .valid-feedback {
-  display: block;
-}
-
-
 .btn-primary {
   background-color: #285ea8;
   border-color: #285ea8;

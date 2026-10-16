@@ -2,27 +2,27 @@
 Name: Arnur Marat  
 Group: SE-2540
 
-A simple page with five form sections
+A simple page with five form sections, styled with Bootstrap and CSS.
 
 ## Task 0 — Simple Contact Form
-Name, email, message, submit, and associated labels. The first section contains the basic form.
+A basic contact form with name, email, message, a submit button, and labels for each field.
 ![Task 0](screenshots/Task0.png)
 
 ## Task 1 — HTML5 Validation
-Required fields, email type, minlength and maxlength. Submit an empty form or an invalid email to see native browser feedback.
+Uses required fields, email type, minlength and maxlength. The browser shows an error if a required field is empty or the entered data is invalid.
 ![Task 1](screenshots/Task1.png)
 
 ## Task 2 — Bootstrap Form Styling
-Bootstrap form-control, form-label, form-text, row, col-md-6 and buttons. Fields stack on small screens.
+Uses Bootstrap classes such as form-control, form-label, form-text, row and col-md-6. Fields appear in one column on small screens.
 ![Task 2](screenshots/Task2.png)
 
 ## Task 3 — Bootstrap Validation Styles
-HTML5 validates the fields. CSS :user-valid and :user-invalid show Bootstrap feedback after interaction.
+JavaScript checks the fields and adds is-valid or is-invalid classes. Bootstrap shows green or red feedback. Messages update when the user corrects the data after submitting.
 ![Task 3](screenshots/Task3.png)
 
 ## Task 4 — Registration
-First and last names, email, password and confirmation, gender radios, optional hobby checkboxes, country select, submit and reset. Both password fields require at least 8 characters. Reset restores the fields.
+Includes first name, last name, email, password, password confirmation, gender, optional hobbies, country, submit and reset buttons. Both passwords require at least 8 characters. JavaScript checks that they match. Reset clears the fields and validation feedback.
 ![Task 4](screenshots/Task4.png)
 
 ## Work summary
-I created five forms, linked each label to its input, added HTML5 constraints, and used Bootstrap grid and feedback classes. No JavaScript is included. Validation uses HTML5 and CSS. There is no backend or account creation. Valid submission uses normal browser navigation; password fields have no name attributes and are excluded from submission.
+I created five forms, connected labels to inputs, added HTML5 validation, and used Bootstrap for layout and feedback. I added JavaScript to check passwords and update validation classes. Submission is prevented, and valid forms show a demo success message. There is no backend or account creation, and no data is sent or saved.
